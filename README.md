@@ -1,9 +1,4 @@
-Simple Clock built using Swift OS for universal iPhone/iPad support.
+Simple Clock built using Swift OS.
 
-Base Design:
 
-![Alt text](http://programmingjourney.com/wp-content/uploads/2015/05/1_Simple-Calulator-Base.png "Swift Simple Calculator - Base")
-
-UI Update:
-
-![Alt text](http://programmingjourney.com/wp-content/uploads/2015/05/1_Simple-Calulator-Designed.png "Swift Simple Calculator - Base")
+![Swift Simple Clock](http://programmingjourney.com/wp-content/uploads/2015/05/1_Simple-Clock.png "Swift Simple Clock")
