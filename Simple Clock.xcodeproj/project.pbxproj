@@ -13,6 +13,8 @@
 		226E695D1B12ECDD00691666 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226E695C1B12ECDD00691666 /* Images.xcassets */; };
 		226E69601B12ECDD00691666 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 226E695E1B12ECDD00691666 /* LaunchScreen.xib */; };
 		226E696C1B12ECDD00691666 /* Simple_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E696B1B12ECDD00691666 /* Simple_ClockTests.swift */; };
+		226E69781B1315F000691666 /* waves-blurred-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 226E69771B1315F000691666 /* waves-blurred-background.jpg */; };
+		226E697A1B13188D00691666 /* ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 226E69791B13188D00691666 /* ellipse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		226E69651B12ECDD00691666 /* Simple ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226E696A1B12ECDD00691666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		226E696B1B12ECDD00691666 /* Simple_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_ClockTests.swift; sourceTree = "<group>"; };
+		226E69771B1315F000691666 /* waves-blurred-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "waves-blurred-background.jpg"; sourceTree = "<group>"; };
+		226E69791B13188D00691666 /* ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellipse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		226E69531B12ECDD00691666 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				226E69791B13188D00691666 /* ellipse.png */,
+				226E69771B1315F000691666 /* waves-blurred-background.jpg */,
 				226E69541B12ECDD00691666 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226E697A1B13188D00691666 /* ellipse.png in Resources */,
 				226E695B1B12ECDD00691666 /* Main.storyboard in Resources */,
 				226E69601B12ECDD00691666 /* LaunchScreen.xib in Resources */,
 				226E695D1B12ECDD00691666 /* Images.xcassets in Resources */,
+				226E69781B1315F000691666 /* waves-blurred-background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
