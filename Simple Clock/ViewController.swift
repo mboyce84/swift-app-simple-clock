@@ -56,6 +56,12 @@ class ViewController: UIViewController {
         clockLabel.text = "\(hourString):\(minutes):\(seconds) \(am)"
     }
     
+    // Create white status bar
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

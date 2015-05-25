@@ -25,17 +25,36 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.15000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sog-ns-qWf">
+                                <rect key="frame" x="55" y="602" width="260" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.15000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1F-AB-0vx">
+                                <rect key="frame" x="55" y="602" width="260" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="38"/>
+                                <color key="textColor" red="1" green="0.22016271801522891" blue="0.25595738953620983" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sog-ns-qWf" secondAttribute="trailing" constant="60" id="Rf4-QA-xk7"/>
                             <constraint firstAttribute="trailing" secondItem="dl2-pi-ksQ" secondAttribute="trailing" id="W4g-K9-rSW"/>
+                            <constraint firstAttribute="bottom" secondItem="sog-ns-qWf" secondAttribute="bottom" constant="20" id="WBn-87-2fV"/>
                             <constraint firstItem="dl2-pi-ksQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="epL-2u-aKN"/>
+                            <constraint firstAttribute="bottom" secondItem="o1F-AB-0vx" secondAttribute="bottom" constant="20" id="hpA-0B-95J"/>
+                            <constraint firstAttribute="trailing" secondItem="o1F-AB-0vx" secondAttribute="trailing" constant="60" id="jZG-MF-B4b"/>
                             <constraint firstAttribute="centerY" secondItem="ffn-Pc-t3v" secondAttribute="centerY" id="nK7-1V-yWc"/>
+                            <constraint firstItem="sog-ns-qWf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="55" id="oCm-iL-r3O"/>
                             <constraint firstAttribute="bottom" secondItem="dl2-pi-ksQ" secondAttribute="bottom" id="q2p-Uf-LZs"/>
                             <constraint firstItem="dl2-pi-ksQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-5" id="rMi-VU-Tn5"/>
+                            <constraint firstItem="o1F-AB-0vx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="55" id="val-bC-sQo"/>
                             <constraint firstAttribute="centerX" secondItem="ffn-Pc-t3v" secondAttribute="centerX" id="zMc-3L-cwR"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="clockLabel" destination="ffn-Pc-t3v" id="fhT-A6-OXo"/>
